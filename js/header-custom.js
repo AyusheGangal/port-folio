@@ -3,11 +3,12 @@ $(document).ready( function() {
   //enabling stickUp on the '.navbar-wrapper' class
 	$('.navbar-wrapper').stickUp({
 		parts: {
-		  0: 'banner',
-		  1: 'aboutus',
-		  2: 'protfolio',
-		  3: 'experience',
-		  4: 'contact'
+		0: 'banner',
+		1: 'aboutus',
+            	2: 'ourwork',
+		3: 'skillset',
+		4: 'experience',
+		5: 'education'
 		},
 		itemClass: 'menuItem',
 		itemHover: 'active',
